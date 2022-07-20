@@ -2,6 +2,7 @@ import React from "react";
 import Grid from "@mui/material/Grid";
 import { Paper, Avatar, TextField, Button } from "@mui/material";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import '../App.css';
 
 const Login=()=> {
     const paperStyle={
@@ -29,9 +30,9 @@ const Login=()=> {
                 </Grid>
 
                 <TextField label="Beans" placeholder="Add or Subtract" fullWidth required></TextField>
-                <TextField label="Soup" placeholder="Add or Subtract" fullWidth required></TextField>
+                <TextField label="Soups" placeholder="Add or Subtract" fullWidth required></TextField>
                 <TextField label="Cheese" placeholder="Add or Subtract" fullWidth required></TextField>
-                <TextField label="Chicken" placeholder="Add or Subtract" fullWidth required></TextField>
+                <TextField label="Perishables" placeholder="Add or Subtract" fullWidth required></TextField>
                 <TextField label="Vegetables" placeholder="Add or Subtract" fullWidth required></TextField>
                 
         
@@ -46,6 +47,10 @@ const Login=()=> {
                      </Button>
                      
 <p> Thank you so much for Donating to the Hope Center!</p>
+<font font-size="100px"><p>provided by code differently dev shop </p></font>
+
+
+
                      
                 </Paper>
                 </Grid>
