@@ -7,7 +7,7 @@ import '../App.css';
 const Login=()=> {
     const paperStyle={
         padding: "20px",
-        height: "70vh",
+        height: "130vh",
         width: 280,
         margin: "20px auto"  
     }
